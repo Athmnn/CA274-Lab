@@ -1,4 +1,4 @@
 #!/bin/sh
 
-grep -c -o 'word' curious.txt
+grep -o -i -w  $1 | wc -l 
 
