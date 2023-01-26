@@ -1,3 +1,3 @@
 #!/bin/sh
 
-grep -P '[0-9]{2,}' curious.txt
+grep '\b[0-9][0-9]\b' curious.txt
