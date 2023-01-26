@@ -1,3 +1,3 @@
 #!/bin/sh
 
-grep '[0-9]$' curious.txt
+grep -w 'red' curious.txt
